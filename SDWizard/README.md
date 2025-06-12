@@ -16,7 +16,7 @@
 
 ## Introduction
 
-The SD Creation Wizard simplifies the process of building and deploying the Self-Description microservices and frontend. This document describes Docker-based setup for both the API and frontend components. (e.g., /getAvailableShapes, /getJSON?name=<shape>)
+The SD Creation Wizard simplifies the process of building and deploying the Self-Description microservices and frontend. This document describes Docker-based setup for both the API and frontend components. (e.g., `/getAvailableShapes`, `/getJSON?name=<shape>`)
 
 ## Prerequisites
 
