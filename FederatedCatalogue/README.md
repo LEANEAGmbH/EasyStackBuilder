@@ -54,7 +54,7 @@ Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and 
 ### 2. Create your flow
 Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Connect them:
 
-![step one (flow)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
+![step one (flow)](./docImage/create-your-flow.png?raw=true)
 
 ### 3. Configure the Federated Catalogue Node
 Double-click to configure:
