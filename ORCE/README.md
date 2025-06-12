@@ -30,7 +30,9 @@ As you can read in [ORCE page](https://github.com/eclipse-xfsc/orchestration-eng
 docker run -d --name xfsc-orce-instance -p 1880:1880 leanea/xfsc-orce:1.0.8  # ORCE 1.0.8 latest as of June, 2025.
 ```
 After pulling and deploying the image, you can go to [http://localhost:1880](http://localhost:1880) to access your local Orchestration Engine. Now you have to install "Orchestration Engine" node. To do so, you have to click on "New Node" button in the left sidebar as shown here.
+
 ![new button](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2025-06-12_18-16-42.jpg?raw=true)
+
 Then, in the new window upload the node package (node-red-leanea-orce-2.0.0.tgz in this repository) and install it. Refresh the page and if everything is done correctly and without errors you can proceed to step1 (creating your flow).
 ### 2. Create your flow
 ![step one (flow)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
