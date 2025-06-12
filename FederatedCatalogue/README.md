@@ -54,19 +54,20 @@ Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and 
 ### 2. Create your flow
 Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Connect them:
 
-![step one (flow)](./docImage/create-your-flow.png?raw=true)
+![step two (flow)](./docImage/create-your-flow.png?raw=true)
 
 ### 3. Name your instance and configure the node
 Double-click on the Federated Catalogue node to open the edit dialog.
 In this step, you must choose a **Catalogue Name**. This will become your instance’s unique identifier, so it must be:
 - Unique (not used by any other instance)
 - Free of special characters (letters and numbers only)
-
 For example, if you name it `mycatalogue`, it will be used internally for instance referencing and must remain distinct.
+![step two (flow)](./docImage/step2.png?raw=true)
 
 ### 4. Provide your kubeconfig file
 In this tab, you need to provide the **kubeconfig** file of your target Kubernetes cluster.
 This file allows the Federated Catalogue node to access your Kubernetes environment and deploy the catalogue instance correctly.
+![step three (flow)](./docImage/step3.png?raw=true)
 
 ### 5. Provide domain address and TLS credentials
 In this tab, you must enter the **domain address** where the catalogue will be accessible. You’ll also need to upload your **TLS certificate** and **private key**.
@@ -76,11 +77,13 @@ The final accessible URL is formed by combining this domain with the catalogue i
 - Domain: `example.com`
 - Resulting URL: `example.com/mycatalogue`
 Make sure your TLS credentials match the provided domain.
+![step four (flow)](./docImage/step4.png?raw=true)
 
 ### 6. Configure Keycloak credentials
 In this tab, you can set your **Keycloak username and password** or any authentication values you prefer. Additionally, you will define a user that the Federated Catalogue instance will use when authenticating through Keycloak.
 
 Make sure the user has proper roles assigned, as required by your catalogue’s access policy.
+![step five (flow)](./docImage/step5.png?raw=true)
 
 ### 7. Information tab
 After the service is successfully deployed, you can switch to the **Information** tab.
