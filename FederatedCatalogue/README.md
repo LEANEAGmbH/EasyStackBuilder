@@ -56,15 +56,35 @@ Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Conn
 
 ![step one (flow)](./docImage/create-your-flow.png?raw=true)
 
-### 3. Configure the Federated Catalogue Node
-Double-click to configure:
-- Set **Catalogue API URL** (e.g., `https://your-catalogue-endpoint.com`) 
-- Add optional **Query Parameters**
-- Add **Authorization** if needed
+### 3. Name your instance and configure the node
+Double-click on the Federated Catalogue node to open the edit dialog.
+In this step, you must choose a **Catalogue Name**. This will become your instance’s unique identifier, so it must be:
+- Unique (not used by any other instance)
+- Free of special characters (letters and numbers only)
 
-The response will be returned in `msg.payload`.
+For example, if you name it `mycatalogue`, it will be used internally for instance referencing and must remain distinct.
 
-### 4. Deploy and Trigger
+### 4. Provide your kubeconfig file
+In this tab, you need to provide the **kubeconfig** file of your target Kubernetes cluster.
+This file allows the Federated Catalogue node to access your Kubernetes environment and deploy the catalogue instance correctly.
+
+### 5. Provide domain address and TLS credentials
+In this tab, you must enter the **domain address** where the catalogue will be accessible. You’ll also need to upload your **TLS certificate** and **private key**.
+
+The final accessible URL is formed by combining this domain with the catalogue instance name you set earlier. For example:
+- Instance Name: `mycatalogue`
+- Domain: `example.com`
+- Resulting URL: `example.com/mycatalogue`
+Make sure your TLS credentials match the provided domain.
+
+### 6. Configure Keycloak credentials
+In this tab, you can set your **Keycloak username and password** or any authentication values you prefer. Additionally, you will define a user that the Federated Catalogue instance will use when authenticating through Keycloak.
+
+Make sure the user has proper roles assigned, as required by your catalogue’s access policy.
+
+### 7. Information tab
+After the service is successfully deployed, you can switch to the **Information** tab.
+Here, the final URL of your deployed catalogue instance will be shown—ready to be copied and used for access or integration.
 Click **Done** and then **Deploy**. Activate the Inject node.
 
 You should see JSON output in the Debug panel, showing catalogue entries.
@@ -121,7 +141,7 @@ Before running:
 ## 🔗 Links & References
 
 - [Federated Catalogue - XFSC](https://github.com/eclipse-xfsc/federated-catalogue)
-- [Node-RED](https://nodered.org/)
+
 
 ---
 
