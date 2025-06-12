@@ -44,22 +44,22 @@ Enter your instance name. This name is going to be the suburl of the instance de
 ![step two (instance tab)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_7_2025-06-12_15-30-18.jpg?raw=true)
 ### 4. Choose deployment type and supply necessary credentials
 In this tab you can select deployment type. Docker is not available as of June 12th, 2025. You also have to supply the kubeconfig file of the destination cluster.
-![step three (deployment type)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_5_2025-06-12_15-30-18.jpg?raw=true)
+![step three (deployment type)](./docImages/photo_5_2025-06-12_15-30-18.jpg?raw=true)
 ### 5. Provide your desired domain address and supply TLS credentials
-![step four (domain)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_8_2025-06-12_15-30-18.jpg?raw=true)
+![step four (domain)](./docImages/photo_8_2025-06-12_15-30-18.jpg?raw=true)
 ### 6. You can see the destination URL in Information tab
 After you have entered everything, you can see the final path of the instance as if it's deployed.
-![step five (information)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_1_2025-06-12_15-30-18.jpg?raw=true)
+![step five (information)](./docImages/photo_1_2025-06-12_15-30-18.jpg?raw=true)
 ### 7. Click done and then deploy
 Click done on top right of the editor and then click on Save&Deploy in top right of the page.
 Then you have to trigger Orchestration Engine via activating the inject node in this scenario.
-![step six (deploy)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_4_2025-06-12_15-30-18.jpg?raw=true)
+![step six (deploy)](./docImages/photo_4_2025-06-12_15-30-18.jpg?raw=true)
 ### 8. Your instance is up!
 After a few seconds of waiting, when the status under the node is changed to "deployed" you can access the instance.
-![step seven (instance is up)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_3_2025-06-12_15-30-18.jpg?raw=true)
+![step seven (instance is up)](./docImages/photo_3_2025-06-12_15-30-18.jpg?raw=true)
 
 - ***Instance Removal:*** Click the trash icon next to your ORCE instance node, then click Deploy in the upper right. You should see your instance (in this case, `xfsc-orce-leanea`) getting terminated in ~1min.
-![instance termination](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/terminating.jpg?raw=true)
+![instance termination](./docImages/terminating.jpg?raw=true)
 
 ---
 
