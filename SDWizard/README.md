@@ -1,10 +1,5 @@
 # SD Creation Wizard Docker Deployment Guide
 
-<p align="center">
-  <a href="https://github.com/your-org/sd-creation-wizard"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="build status"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="license"></a>
-</p>
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -18,9 +13,6 @@
   - [Docker Compose Deployment](#docker-compose-deployment)
 - [Push to Registry](#push-to-registry)
 - [Verification & Cleanup](#verification--cleanup)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -154,15 +146,3 @@ Remove containers and networks:
 ```bash
 docker-compose down --remove-orphans
 ```
-
-## Contributing
-
-Contributions are welcome! Please open issues or pull requests against the respective repositories.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or support, please contact the DevOps team at devops@your-org.com.
