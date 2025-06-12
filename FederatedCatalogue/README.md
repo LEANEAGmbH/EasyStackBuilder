@@ -49,7 +49,7 @@ Click on "New Node" in the sidebar.
 
 ![new button](./docImage/add-new-node.jpg?raw=true)
 
-Upload `node-red-leanea-federated-catalogue-1.0.0.tgz` from this repository and install. Refresh Node-RED to activate the node.
+Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and install. Refresh Node-RED to activate the node.
 
 ### 2. Create your flow
 Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Connect them:
@@ -89,13 +89,13 @@ Before running:
 ## 📁 Directory Contents
 ```
 .
-├── node-red-leanea-federated-catalogue-1.0.0.tgz
+├── node-red-leanea-federated-catalogue-1.0.2.tgz
 ├── FederatedCatalogue.html
 ├── FederatedCatalogue.js
 ├── package.json
 ```
 
-- **node-red-leanea-federated-catalogue-1.0.0.tgz**  
+- **node-red-leanea-federated-catalogue-1.0.2.tgz**  
   Installable node package.
 
 - **FederatedCatalogue.html**  
