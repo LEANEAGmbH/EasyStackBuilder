@@ -6,6 +6,27 @@ An automated orchestration workspace that deploys an [ORCE](https://github.com/e
 
 ---
 
+## Table of Contents
+- [🚀 Overview](#overview)
+- [🛠️ How to Use](#how-to-use)
+  - [1. Prepare the environment and prerequisites](#1-prepare-the-environment-and-prerequisites)
+    - [1.1. Kubernetes](#11-kubernetes)
+    - [1.2. Local ORCE](#12-local-orce)
+  - [2. Create your flow](#2-create-your-flow)
+  - [3. Name your instance and choose authentication method](#3-name-your-instance-and-choose-authentication-method)
+  - [4. Choose deployment type and supply necessary credentials](#4-choose-deployment-type-and-supply-necessary-credentials)
+  - [5. Provide your desired domain address and supply TLS credentials](#5-provide-your-desired-domain-address-and-supply-tls-credentials)
+  - [6. You can see the destination URL in Information tab](#6-you-can-see-the-destination-url-in-information-tab)
+  - [7. Click done and then deploy](#7-click-done-and-then-deploy)
+  - [8. Your instance is up!](#8-your-instance-is-up)
+- [⚙️ Configuration](#configuration)
+- [📁 Directory Contents](#directory-contents)
+- [📦 Dependencies](#dependencies)
+- [🔗 Links & References](#links--references)
+- [License](#license)
+
+---
+
 ## 🚀 Overview
 
 ORCE is a streamlined orchestration workspace that provisions and tears down your ORCE runtime on any compliant Kubernetes cluster with zero manual steps. It abstracts away environment setup—simply upload your kubeconfig, TLS credentials, and desired domain address—and then leverages the included deploy.sh and uninstall.sh scripts through a custom Node-RED node to automate resource provisioning, certificate management, and cleanup. A built-in static HTML dashboard surfaces real‐time deployment status, logs, and rollback controls, so you can focus on designing your flows and integrating XFSC modules rather than wrestling with Kubernetes manifests or shell commands.
