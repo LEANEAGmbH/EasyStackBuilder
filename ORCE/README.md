@@ -40,6 +40,7 @@ Then, in the new window upload the node package (`node-red-leanea-orce-2.0.0.tgz
 Drag and drop inject, Orchestration Engine and a debug node. Connect them like below so Orchestration Engine can be triggered by the inject node.
 ![step one (flow)](./docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
 ### 3. Name your instance and choose authentication method
+Double click on the node to open edit dialog.
 Enter your instance name. This name is going to be the suburl of the instance destination. For example, if we name an instance `leanea`, the final url of the instance is going to be `www.example.com/leanea`.
 ![step two (instance tab)](./docImages/photo_7_2025-06-12_15-30-18.jpg?raw=true)
 ### 4. Choose deployment type and supply necessary credentials
