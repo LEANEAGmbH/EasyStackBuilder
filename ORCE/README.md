@@ -120,6 +120,8 @@ Before you deploy, you’ll need to provide:
 
 - [XFSC ORCE](https://github.com/eclipse-xfsc/orchestration-engine)  
 
+---
+
 ## License
 
 This project is licensed under the Apache License 2.0.  
