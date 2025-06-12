@@ -47,7 +47,7 @@ Go to [http://localhost:1880](http://localhost:1880).
 ### Install Federated Catalogue Node
 Click on "New Node" in the sidebar.
 
-![new button](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2025-06-12_18-16-42.jpg?raw=true)
+![new button](./docImages/add-new-node.jpg?raw=true)
 
 Upload `node-red-leanea-federated-catalogue-1.0.0.tgz` from this repository and install. Refresh Node-RED to activate the node.
 
