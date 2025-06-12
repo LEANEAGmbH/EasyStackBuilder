@@ -30,25 +30,25 @@ As you can read in [ORCE page](https://github.com/eclipse-xfsc/orchestration-eng
 docker run -d --name xfsc-orce-instance -p 1880:1880 leanea/xfsc-orce:1.0.8  # ORCE 1.0.8 latest as of June, 2025.
 ```
 After pulling and deploying the image, you can go to [http://localhost:1880](http://localhost:1880) to access your local Orchestration Engine. Now you have to install "Orchestration Engine" node. To do so, you have to click on "New Node" button in the left sidebar as shown here.
-![new button](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_2025-06-12_18-16-42.jpg?raw=true)
+![new button](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2025-06-12_18-16-42.jpg?raw=true)
 Then, in the new window upload the node package (node-red-leanea-orce-2.0.0.tgz in this repository) and install it. Refresh the page and if everything is done correctly and without errors you can proceed to step1 (creating your flow).
 ### 2. Create your flow
-![step one (flow)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
+![step one (flow)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
 ### 3. Name your instance and choose authentication method
-![step two (instance tab)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_7_2025-06-12_15-30-18.jpg?raw=true)
+![step two (instance tab)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_7_2025-06-12_15-30-18.jpg?raw=true)
 ### 4. Choose deployment type and supply necessary credentials
-![step three (deployment type)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_5_2025-06-12_15-30-18.jpg?raw=true)
+![step three (deployment type)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_5_2025-06-12_15-30-18.jpg?raw=true)
 ### 5. Provide your desired domain address and supply TLS credentials
-![step four (domain)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_8_2025-06-12_15-30-18.jpg?raw=true)
+![step four (domain)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_8_2025-06-12_15-30-18.jpg?raw=true)
 ### 6. You can see the destination URL in Information tab
-![step five (information)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_1_2025-06-12_15-30-18.jpg?raw=true)
+![step five (information)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_1_2025-06-12_15-30-18.jpg?raw=true)
 ### 7. Click done and then deploy
-![step six (deploy)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_4_2025-06-12_15-30-18.jpg?raw=true)
+![step six (deploy)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_4_2025-06-12_15-30-18.jpg?raw=true)
 ### 8. Your instance is up!
-![step seven (instance is up)](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/photo_3_2025-06-12_15-30-18.jpg?raw=true)
+![step seven (instance is up)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_3_2025-06-12_15-30-18.jpg?raw=true)
 
 - ***Instance Removal:*** Click the trash icon next to your ORCE instance node, then click Deploy in the upper right. You should see your instance (in this case, `xfsc-orce-leanea`) getting terminated in ~1min.
-![instance termination](https://github.com/ManiFaridi/leanea/blob/main/magic-module-builder/ORCE/docImages/terminating.jpg?raw=true)
+![instance termination](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/terminating.jpg?raw=true)
 
 ---
 
