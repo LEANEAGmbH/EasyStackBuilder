@@ -148,5 +148,9 @@ Remove containers and networks:
 ```bash
 docker-compose down --remove-orphans
 ```
+
+What you should see if the front-end is healthy:
 ![main front-end](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/SDWizard/docImage/photo_2025-06-12_22-15-31.jpg?raw=true)
+
+For api service we should have something like this or an empty json as well:
 ![api response](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/SDWizard/docImage/photo_2025-06-12_22-15-44.jpg?raw=true)
