@@ -7,8 +7,8 @@ An automated orchestration workspace that deploys an [ORCE](https://github.com/e
 ---
 
 ## Table of Contents
-- [🚀 Overview](#overview)
-- [🛠️ How to Use](#how-to-use)
+- [🚀 Overview](#-overview)
+- [🛠️ How to Use](#%EF%B8%8F-how-to-use)
   - [1. Prepare the environment and prerequisites](#1-prepare-the-environment-and-prerequisites)
     - [1.1. Kubernetes](#11-kubernetes)
     - [1.2. Local ORCE](#12-local-orce)
@@ -19,10 +19,10 @@ An automated orchestration workspace that deploys an [ORCE](https://github.com/e
   - [6. You can see the destination URL in Information tab](#6-you-can-see-the-destination-url-in-information-tab)
   - [7. Click done and then deploy](#7-click-done-and-then-deploy)
   - [8. Your instance is up!](#8-your-instance-is-up)
-- [⚙️ Configuration](#configuration)
-- [📁 Directory Contents](#directory-contents)
-- [📦 Dependencies](#dependencies)
-- [🔗 Links & References](#links--references)
+- [⚙️ Configuration](#%EF%B8%8F-configuration)
+- [📁 Directory Contents](#-directory-contents)
+- [📦 Dependencies](#-dependencies)
+- [🔗 Links & References](#-links--references)
 - [License](#license)
 
 ---
