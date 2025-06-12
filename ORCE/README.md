@@ -76,19 +76,22 @@ Before you deploy, you’ll need to provide:
 ```
 
 - **deploy.sh**  
-  Automates the installation of the ORCE Node-RED package into your target cluster.
+  This file is responsible of executing deployment commands. It creates the namespace, serviceaccount, clusterrole, clusterrolebinding, configmap, pods, service, adds TLS secrets and finally installs namespaced ingress. (The ingress shares a single IP with other instances of this kind in an IngressClass called nginx-orce-cluster.)
 
 - **uninstall.sh**  
-  Safely removes the ORCE instance and cleans up all associated Kubernetes resources.
+  Safely removes the ORCE instance and cleans up all associated Kubernetes resources. It cleans up everything that `deploy.sh` has created in the process of initiating.
 
 - **package.json**  
-  Defines ORCE’s Node.js dependencies and versioning.  
+  Defines ORCE’s Node.js dependencies and versioning.
 
 - **ORCE.js**  
-  Entry point for ORCE’s orchestration logic—handles installation parameters and rollbacks.
+  Entry point for ORCE’s orchestration logic—handles installation parameters and rollbacks. The node's back-end.
 
 - **ORCE.html**  
-  A static dashboard for monitoring ORCE’s deployment status and logs.
+  A static dashboard for monitoring ORCE’s deployment status and logs. The node's front-end.
+
+- **node-red-leanea-orce-2.0.0.tgz**  
+  Latest version of ORCE node.
 
 ---
 
