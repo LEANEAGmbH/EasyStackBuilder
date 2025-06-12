@@ -16,7 +16,7 @@
 
 ## Introduction
 
-The SD Creation Wizard simplifies the process of building and deploying the Self-Description microservices and frontend. This document describes Docker-based setup for both the API and frontend components. fileciteturn0file0
+The SD Creation Wizard simplifies the process of building and deploying the Self-Description microservices and frontend. This document describes Docker-based setup for both the API and frontend components. (e.g., /getAvailableShapes, /getJSON?name=<shape>)
 
 ## Prerequisites
 
@@ -53,6 +53,7 @@ sd-creation-wizard-frontend/
 
 ```bash
 # Navigate to the API deployment directory
+mkdir -p sd-creation-wizard-api/deployment
 cd sd-creation-wizard-api/deployment
 
 # Build the Docker image
@@ -80,6 +81,7 @@ curl http://localhost:8080/getAvailableShapes
 
 ```bash
 # Navigate to the frontend root directory
+mkdir sd-creation-wizard-frontend
 cd sd-creation-wizard-frontend
 
 # Build the Docker image
