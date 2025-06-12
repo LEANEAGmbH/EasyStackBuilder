@@ -156,3 +156,9 @@ What you should see if the front-end is healthy:
 
 For api service we should have something like this or an empty json as well:
 ![api response](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/SDWizard/docImage/photo_2025-06-12_22-15-44.jpg?raw=true)
+
+
+## License
+
+This project is licensed under the Apache License 2.0.  
+See the [LICENSE](../LICENSE) file for details.
