@@ -146,3 +146,5 @@ Remove containers and networks:
 ```bash
 docker-compose down --remove-orphans
 ```
+![main front-end](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/SDWizard/docImage/photo_2025-06-12_22-15-31.jpg?raw=true)
+![api response](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/SDWizard/docImage/photo_2025-06-12_22-15-44.jpg?raw=true)
