@@ -80,8 +80,8 @@ Then you have to trigger Orchestration Engine via activating the inject node in 
 After a few seconds of waiting, when the status under the node is changed to "deployed" you can access the instance.
 ![step seven (instance is up)](./docImages/photo_3_2025-06-12_15-30-18.jpg?raw=true)
 
-- ***Instance Removal:*** Click the trash icon next to your ORCE instance node, then click Deploy in the upper right. You should see your instance (in this case, `xfsc-orce-leanea`) getting terminated in ~1min.
-![instance termination](./docImages/terminating.jpg?raw=true)
+- ***Instance Removal:*** Click the trash icon next to your ORCE instance node, then click Deploy in the upper right. You should see your instance (in this case, `xfsc-orce-leanea`) getting terminated in ~1min. As you can see the pods (and other related resources which are not shown in this image) are terminating.
+![instance termination](./docImages/photo_2025-06-12_23-26-10.jpg?raw=true)
 
 ---
 
