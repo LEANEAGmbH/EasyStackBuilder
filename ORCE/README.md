@@ -33,15 +33,15 @@ docker run -d --name xfsc-orce-instance -p 1880:1880 leanea/xfsc-orce:1.0.8  # O
 ```
 After pulling and deploying the image, you can go to [http://localhost:1880](http://localhost:1880) to access your local Orchestration Engine. Now you have to install "Orchestration Engine" node. To do so, you have to click on "New Node" button in the left sidebar as shown here.
 
-![new button](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2025-06-12_18-16-42.jpg?raw=true)
+![new button](./docImages/photo_2025-06-12_18-16-42.jpg?raw=true)
 
 Then, in the new window upload the node package (`node-red-leanea-orce-2.0.0.tgz` in this repository) and install it. Refresh the page and if everything is done correctly and without errors you can proceed to step2 (creating your flow).
 ### 2. Create your flow
 Drag and drop inject, Orchestration Engine and a debug node. Connect them like below so Orchestration Engine can be triggered by the inject node.
-![step one (flow)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
+![step one (flow)](./docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
 ### 3. Name your instance and choose authentication method
 Enter your instance name. This name is going to be the suburl of the instance destination. For example, if we name an instance `leanea`, the final url of the instance is going to be `www.example.com/leanea`.
-![step two (instance tab)](https://github.com/LEANEAGmbH/magic-module-builder/blob/main/ORCE/docImages/photo_7_2025-06-12_15-30-18.jpg?raw=true)
+![step two (instance tab)](./docImages/photo_7_2025-06-12_15-30-18.jpg?raw=true)
 ### 4. Choose deployment type and supply necessary credentials
 In this tab you can select deployment type. Docker is not available as of June 12th, 2025. You also have to supply the kubeconfig file of the destination cluster.
 ![step three (deployment type)](./docImages/photo_5_2025-06-12_15-30-18.jpg?raw=true)
