@@ -102,7 +102,11 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
    - Generates service clients and client secrets.  
    - Creates users and assigns roles automatically.  
    - Disables default password policies for integration ease.
-![keycloak](./docImages/keycloak.jpg?raw=true)
+<img
+  src="./docImages/keycloak.jpg?raw=true"
+  alt="keycloak"
+  style="max-width:400px; width:100%; height:auto;"
+/>
 
 6. **Output Returned to ORCE**  
    - External IP of ingress  
