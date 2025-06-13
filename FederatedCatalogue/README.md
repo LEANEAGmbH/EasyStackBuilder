@@ -41,7 +41,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 ```
 You can learn more by reading the [official documentation](https://kubernetes.github.io/ingress-nginx/deploy/)
 After this step, you can proceed to step 1.2 (Installing a local ORCE)
-```
+
 
 ### 1.2. Local ORCE
 Install ORCE as described in the [ORCE page](https://github.com/eclipse-xfsc/orchestration-engine):
