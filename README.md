@@ -105,7 +105,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 <img
   src="./docImages/keycloak.jpg?raw=true"
   alt="keycloak"
-  style="max-width:400px; width:100%; height:auto;"
+  style="max-width:400px; width:50%; height:auto;"
 />
 
 6. **Output Returned to ORCE**  
