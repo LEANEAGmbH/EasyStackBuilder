@@ -59,6 +59,7 @@ mkdir -p sd-creation-wizard-api/deployment
 cd sd-creation-wizard-api/deployment
 
 # Build the Docker image
+git clone https://github.com/eclipse-xfsc/sd-creation-wizard-api
 docker build -t sd-creation-wizard-api:latest -f Dockerfile ..
 
 # Run the container
@@ -87,6 +88,7 @@ mkdir sd-creation-wizard-frontend
 cd sd-creation-wizard-frontend
 
 # Build the Docker image
+git clone https://github.com/eclipse-xfsc/sd-creation-wizard-frontend.git
 docker build -t sd-creation-wizard-frontend:latest .
 
 # (Optional) Standalone smoke test
