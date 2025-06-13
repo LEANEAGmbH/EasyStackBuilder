@@ -1,6 +1,19 @@
-# EasyStack Builder – Technical Overview Document
+# 📘 EasyStack Builder – Technical Overview Document
 
-## What is EasyStack Builder?
+## 📑 Table of Contents
+
+- 📘 EasyStack Builder – Technical Overview Document
+- ❓ What is EasyStack Builder?
+- 💡 Core Philosophy
+  - 🛠️ Before EasyStack Builder
+  - 🚀 After EasyStack Builder
+- 🏗️ System Architecture
+- 🌟 Why It Matters
+- 🗑️ Uninstallation Support
+- 🔮 What’s Next
+- 📝 Summary
+
+## ❓ What is EasyStack Builder?
 
 EasyStack Builder is a suite of deployment modules built directly into ORCE, our visual orchestration engine. At runtime, these modules are registered as custom nodes within ORCE’s internal registry and appear as drag-and-drop components inside the orchestration flow editor. When a user adds a module to a flow and deploys it, ORCE executes the module's backend logic asynchronously. Each module listens for input events, processes parameters passed through the flow, and returns structured output (like deployment results or error messages) back to ORCE using standard flow message conventions. This allows seamless integration with other logic, chaining, or decision-making steps in the pipeline.
 
@@ -12,7 +25,7 @@ These modules are designed to automate the full deployment process of federated 
 - TSA E1
 - SD Wizard
 
-## Core Philosophy
+## 💡 Core Philosophy
 
 **One visual node = one full-stack deployment.**
 
@@ -25,7 +38,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 - Generate and store TLS secrets securely
 - Set up Keycloak realms, clients, and users via its REST API or GUI
 
-### Before EasyStack Builder
+### 🛠️ Before EasyStack Builder
 
 ```bash
 kubectl create ns fed-cat-demo
@@ -34,12 +47,12 @@ kubectl create secret tls certificates ...
 # Set up Keycloak: series of curl calls or web admin steps to create client, user, assign roles
 ```
 
-### After EasyStack Builder
+### 🚀 After EasyStack Builder
 
 1. Upload kubeconfig and certs in the UI, then click **Deploy**.
 2. EasyStack Builder validates inputs, executes Helm deployments, configures secrets and ingress, prepares Keycloak resources, and returns URLs and credentials into the flow.
 
-## System Architecture
+## 🏗️ System Architecture
 
 1. **Execution Context: ORCE**  
    ORCE is a Node.js-based visual orchestrator that runs our flows.
@@ -73,26 +86,29 @@ kubectl create secret tls certificates ...
    - Keycloak realm URL  
    - Generated client secrets
 
-## Why It Matters
+## 🌟 Why It Matters
 
 - Simplifies 30+ CLI steps into a single action  
 - Enables non-DevOps users to provision production-level services  
 - Ensures repeatability across environments (dev, staging, prod)  
 - Eliminates the need for Helm/YAML/K8s/Keycloak expertise
 
-## Uninstallation Support
+## 🗑️ Uninstallation Support
 
 EasyStack Builder modules also support automated uninstallation via:
 - A dedicated script (`uninstall.sh`)  
 - Kubernetes namespace cleanup  
 - Removal of Helm releases, services, and secrets
 
-## What’s Next
+## 🔮 What’s Next
 
 - Builder modules for OCM, TSA, PCM, and AA are in active development  
 - Version 2 will support deployment chaining, multi-cluster logic, and error recovery  
 - Integration with AI-based FAP Builder will enable dynamic module composition and self-optimizing infrastructure graphs
 
-## Summary
+## 📝 Summary
 
 EasyStack Builder turns ORCE into a low-code cloud deployment engine, bridging the gap between infrastructure complexity and user simplicity. It lets anyone deploy trusted, Gaia-X compliant services in minutes.
+
+
+## LICENSE
