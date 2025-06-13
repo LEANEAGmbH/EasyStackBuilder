@@ -114,7 +114,12 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
    - Service URLs (e.g., fc-service)  
    - Keycloak realm URL  
    - Generated client secrets
-![processFlow](./docImages/processflow.jpg?raw=true)
+
+<img
+  src="./docImages/processflow.jpg?raw=true"
+  alt="processflow"
+  style="max-width:400px; width:50%; height:auto;"
+/>
 
 ## 🌟 Why It Matters
 
