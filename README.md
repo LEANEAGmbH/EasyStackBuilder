@@ -132,7 +132,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 
 ## 🗑️ Uninstallation Support
 
-EasyStack Builder modules also support automated uninstallation via:
+EasyStack Builder modules also support automated uninstallation via removing the responsible node and re-deploying the flow:
 - A dedicated script (`uninstall.sh`)  
 - Kubernetes namespace cleanup  
 - Removal of Helm releases, services, and secrets
