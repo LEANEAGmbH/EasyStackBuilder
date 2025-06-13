@@ -53,6 +53,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 
 1. Upload kubeconfig and certs in the UI, then click **Deploy**.
 2. EasyStack Builder validates inputs, executes Helm deployments, configures secrets and ingress, prepares Keycloak resources, and returns URLs and credentials into the flow.
+![easystackbuilder](./docImages/easystackbuilder.jpg?raw=true)
 
 ## 🏗️ System Architecture
 
