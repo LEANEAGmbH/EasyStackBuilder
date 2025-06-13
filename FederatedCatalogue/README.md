@@ -57,25 +57,29 @@ Click on "New Node" in the sidebar.
 
 Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and install. Refresh to activate the node.
 
-### 2. Create your flow
+
+### 2. Install your node
+click on the "Install" tab. Then on the upload icon.The node will be successfully installed.
+
+### 3. Create your flow
 Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Connect them:
 
-![step two (flow)](./docImage/create-your-flow.png?raw=true)
+![step three (flow)](./docImage/create-your-flow.png?raw=true)
 
-### 3. Name your instance and configure the node
+### 4. Name your instance and configure the node
 Double-click on the Federated Catalogue node to open the edit dialog.
 In this step, you must choose a **Catalogue Name**. This will become your instance’s unique identifier, so it must be:
 - Unique (not used by any other instance)
 - Free of special characters (letters and numbers only)
 For example, if you name it `mycatalogue`, it will be used internally for instance referencing and must remain distinct.
-![step three (flow)](./docImage/step2.png?raw=true)
+![step four (flow)](./docImage/step2.png?raw=true)
 
-### 4. Provide your kubeconfig file
+### 5. Provide your kubeconfig file
 In this tab, you need to provide the **kubeconfig** file of your target Kubernetes cluster.
 This file allows the Federated Catalogue node to access your Kubernetes environment and deploy the catalogue instance correctly.
-![step four (flow)](./docImage/step3.png?raw=true)
+![step five (flow)](./docImage/step3.png?raw=true)
 
-### 5. Provide domain address and TLS credentials
+### 6. Provide domain address and TLS credentials
 In this tab, you must enter the **domain address** where the catalogue will be accessible. You’ll also need to upload your **TLS certificate** and **private key**.
 
 The final accessible URL is formed by combining this domain with the catalogue instance name you set earlier. For example:
@@ -83,19 +87,19 @@ The final accessible URL is formed by combining this domain with the catalogue i
 - Domain: `example.com`
 - Resulting URL: `example.com/mycatalogue`
 Make sure your TLS credentials match the provided domain.
-![step five (flow)](./docImage/step4.png?raw=true)
+![step six (flow)](./docImage/step4.png?raw=true)
 
-### 6. Configure Keycloak credentials
+### 7. Configure Keycloak credentials
 In this tab, you can set your **Keycloak username and password** or any authentication values you prefer. Additionally, you will define a user that the Federated Catalogue instance will use when authenticating through Keycloak.
 
 Make sure the user has proper roles assigned, as required by your catalogue’s access policy.
-![step six (flow)](./docImage/step5.png?raw=true)
+![step seven (flow)](./docImage/step5.png?raw=true)
 
-### 7. Information tab
+### 8. Information tab
 After the service is successfully deployed, you can switch to the **Information** tab.
 Here, the final URL of your deployed catalogue instance will be shown—ready to be copied and used for access or integration.
 Click **Done** and then **Deploy**. Activate the Inject node.
-![step seven (flow)](./docImage/step7.png?raw=true)
+![step eight (flow)](./docImage/step7.png?raw=true)
 You should see JSON output in the Debug panel, showing catalogue entries.
 
 ---
