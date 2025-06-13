@@ -51,7 +51,7 @@ You'll need:
 export KUBECONFIG=`<YOUR KUBECONFIG PATH>`
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.3/deploy/static/provider/cloud/deploy.yaml
 ```
-You can learn more by reading the [official documentation](https://kubernetes.github.io/ingress-nginx/deploy/)
+You can learn more by reading the [official documentation](https://kubernetes.github.io/ingress-nginx/deploy/).
 After this step, you can proceed to step 1.2 (Installing a local ORCE)
 ### 1.2. Local ORCE
 As you can read in [ORCE page](https://github.com/eclipse-xfsc/orchestration-engine), you can install it on your local machine with this command:
