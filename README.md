@@ -24,6 +24,7 @@ These modules are designed to automate the full deployment process of federated 
 - PCM Cloud
 - TSA E1
 - SD Wizard
+![executionProcess](./docImages/moduledeploymentflow.jpg?raw=true)
 
 ## 💡 Core Philosophy
 
@@ -93,7 +94,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 - Enables non-DevOps users to provision production-level services  
 - Ensures repeatability across environments (dev, staging, prod)  
 - Eliminates the need for Helm/YAML/K8s/Keycloak expertise
-![processFlow](./docImages/executionprocess.jpg?raw=true)
+![executionProcess](./docImages/executionprocess.jpg?raw=true)
 
 
 ## 🗑️ Uninstallation Support
