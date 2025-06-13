@@ -8,7 +8,7 @@ An automated orchestration workspace that deploys a [Federated Catalogue](https:
 
 ## 🚀 Overview
 
-The Federated Catalogue (CAT) is a core component of the Gaia-X ecosystem that enables discovery and access to resources, assets, and participants through their Self-Descriptions. These Self-Descriptions, written in JSON-LD, are either stored as raw documents or integrated into a graph that supports advanced cross-entity queries. The goal is to empower users to find the most relevant services and monitor their evolution over time.
+The Federated Catalogue (CAT) is a core component of the XFSC Toolbox that enables discovery and access to resources, assets, and participants through their Self-Descriptions. These Self-Descriptions, written in JSON-LD, are either stored as raw documents or integrated into a graph that supports advanced cross-entity queries. The goal is to empower users to find the most relevant services and monitor their evolution over time.
 
 Key components of the Federated Catalogue include:
 - Self-Description Storage and Lifecycle
@@ -23,6 +23,9 @@ Thanks to ORCE’s orchestration features, deploying a Federated Catalogue insta
 
 ---
 
+## 🛠️ Click to Deploy
+
+---
 ## 🛠️ How to Use
 
 ### 1. Prepare the environment and prerequisites
@@ -49,7 +52,7 @@ Click on "New Node" in the sidebar.
 
 ![new button](./docImage/add-new-node.jpg?raw=true)
 
-Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and install. Refresh Node-RED to activate the node.
+Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and install. Refresh to activate the node.
 
 ### 2. Create your flow
 Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Connect them:
