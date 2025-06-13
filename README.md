@@ -24,6 +24,7 @@ These modules are designed to automate the full deployment process of federated 
 - PCM Cloud
 - TSA E1
 - SD Wizard
+
 ![executionProcess](./docImages/moduledeploymentflow.jpg?raw=true)
 
 ## 💡 Core Philosophy
