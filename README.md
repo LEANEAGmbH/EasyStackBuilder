@@ -3,6 +3,7 @@
 ## 📑 Table of Contents
 
 - [❓ What is EasyStack Builder?](#-what-is-easystack-builder)
+- [🌟 Service Deployment Made Simple – Step-by-Step via ORCE]
 - [💡 Core Philosophy](#-core-philosophy)
   - [🛠️ Before EasyStack Builder](#%EF%B8%8F-before-easystack-builder)
   - [🚀 After EasyStack Builder](#-after-easystack-builder)
@@ -24,6 +25,19 @@ These modules are designed to automate the full deployment process of federated 
 - PCM Cloud
 - TSA E1
 - SD Wizard
+
+## Service Deployment Made Simple – Step-by-Step via ORCE
+- Step 1
+Launch ORCE locally or in the cloud
+(as simple as running a Docker command)
+- Step 2
+Drag the corresponding EasyStack Builder node
+(e.g., Federated Catalogue) into the ORCE flow
+- Step 3
+Configure the node by uploading your kubeconfig
+- Step 4
+The catalogue service is now deployed —
+you can start sending API requests to it
 
 <img
   src="./docImages/moduledeploymentflow.jpg?raw=true"
