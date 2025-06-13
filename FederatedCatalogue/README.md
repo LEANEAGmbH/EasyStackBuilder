@@ -23,7 +23,7 @@ Thanks to ORCE’s orchestration features, deploying a Federated Catalogue insta
 
 ---
 
-## 🛠️ Click to Deploy
+## ⚡️ Click-to-Deploy
 
 ---
 ## 🛠️ How to Use
