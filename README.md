@@ -2,17 +2,16 @@
 
 ## 📑 Table of Contents
 
-- 📘 EasyStack Builder – Technical Overview Document
-- ❓ What is EasyStack Builder?
-- 💡 Core Philosophy
-  - 🛠️ Before EasyStack Builder
-  - 🚀 After EasyStack Builder
-- 🏗️ System Architecture
-- 🌟 Why It Matters
-- 🗑️ Uninstallation Support
-- 🔮 What’s Next
-- 📝 Summary
-- License
+- [❓ What is EasyStack Builder?](#-what-is-easystack-builder)
+- [💡 Core Philosophy](#-core-philosophy)
+  - [🛠️ Before EasyStack Builder](#%EF%B8%8F-before-easystack-builder)
+  - [🚀 After EasyStack Builder](#-after-easystack-builder)
+- [🏗️ System Architecture](#%EF%B8%8F-system-architecture)
+- [🌟 Why It Matters](#-why-it-matters)
+- [🗑️ Uninstallation Support](#%EF%B8%8F-uninstallation-support)
+- [🔮 What’s Next](#-whats-next)
+- [📝 Summary](#-summary)
+- [License](#license)
 
 ## ❓ What is EasyStack Builder?
 
