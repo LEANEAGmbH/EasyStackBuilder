@@ -3,7 +3,7 @@
 ## 📑 Table of Contents
 
 - [❓ What is EasyStack Builder?](#-what-is-easystack-builder)
-- [🌟 Service Deployment Made Simple – Step-by-Step via ORCE]
+- [🌟 Service Deployment Made Simple – Step-by-Step via ORCE](#service-deployment-made-simple--step-by-step-via-orce)
 - [💡 Core Philosophy](#-core-philosophy)
   - [🛠️ Before EasyStack Builder](#%EF%B8%8F-before-easystack-builder)
   - [🚀 After EasyStack Builder](#-after-easystack-builder)
