@@ -8,6 +8,7 @@ An automated orchestration workspace that deploys an [ORCE](https://github.com/e
 
 ## Table of Contents
 - [🚀 Overview](#-overview)
+- [⚡️ Click-to-Deploy](#%EF%B8%8F-click-to-deploy)
 - [🛠️ How to Use](#%EF%B8%8F-how-to-use)
   - [1. Prepare the environment and prerequisites](#1-prepare-the-environment-and-prerequisites)
     - [1.1. Kubernetes](#11-kubernetes)
