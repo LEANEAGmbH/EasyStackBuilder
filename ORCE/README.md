@@ -35,6 +35,10 @@ Whether you need to support different scenarios utilizing XFSC modules, the fast
 
 ---
 
+## ⚡️ Click-to-Deploy
+
+---
+
 ## 🛠️ How to Use
 ### 1. Prepare the environment and prerequisites
 You'll need:
