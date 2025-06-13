@@ -52,8 +52,6 @@ kubectl create secret tls certificates ...
 1. Upload kubeconfig and certs in the UI, then click **Deploy**.
 2. EasyStack Builder validates inputs, executes Helm deployments, configures secrets and ingress, prepares Keycloak resources, and returns URLs and credentials into the flow.
 
-![processFlow](./docImages/processflow.jpg?raw=true)
-
 ## 🏗️ System Architecture
 
 1. **Execution Context: ORCE**  
@@ -87,6 +85,7 @@ kubectl create secret tls certificates ...
    - Service URLs (e.g., fc-service)  
    - Keycloak realm URL  
    - Generated client secrets
+![processFlow](./docImages/processflow.jpg?raw=true)
 
 ## 🌟 Why It Matters
 
