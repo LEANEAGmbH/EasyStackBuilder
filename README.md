@@ -93,6 +93,8 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 - Enables non-DevOps users to provision production-level services  
 - Ensures repeatability across environments (dev, staging, prod)  
 - Eliminates the need for Helm/YAML/K8s/Keycloak expertise
+![processFlow](./docImages/executionprocess.jpg?raw=true)
+
 
 ## 🗑️ Uninstallation Support
 
