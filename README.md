@@ -12,7 +12,7 @@
 - 🗑️ Uninstallation Support
 - 🔮 What’s Next
 - 📝 Summary
-- LICENSE
+- License
 
 ## ❓ What is EasyStack Builder?
 
@@ -111,5 +111,7 @@ EasyStack Builder modules also support automated uninstallation via:
 
 EasyStack Builder turns ORCE into a low-code cloud deployment engine, bridging the gap between infrastructure complexity and user simplicity. It lets anyone deploy trusted, Gaia-X compliant services in minutes.
 
+## License
 
-## LICENSE
+This project is licensed under the Apache License 2.0.  
+See the [LICENSE](../LICENSE) file for details.
