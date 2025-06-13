@@ -54,11 +54,7 @@ sd-creation-wizard-frontend/
 ### Build & Run
 
 ```bash
-# Navigate to the API deployment directory
-mkdir -p sd-creation-wizard-api/deployment
-cd sd-creation-wizard-api/deployment
-
-# Build the Docker image
+# Clone and build the Docker image
 git clone https://github.com/eclipse-xfsc/sd-creation-wizard-api
 docker build -t sd-creation-wizard-api:latest -f Dockerfile ..
 
@@ -83,11 +79,7 @@ curl http://localhost:8080/getAvailableShapes
 ### Build & Smoke Test
 
 ```bash
-# Navigate to the frontend root directory
-mkdir sd-creation-wizard-frontend
-cd sd-creation-wizard-frontend
-
-# Build the Docker image
+# Clone and build the Docker image
 git clone https://github.com/eclipse-xfsc/sd-creation-wizard-frontend.git
 docker build -t sd-creation-wizard-frontend:latest .
 
