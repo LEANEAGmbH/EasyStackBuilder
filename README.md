@@ -16,7 +16,7 @@
 
 ## ❓ What is EasyStack Builder?
 
-EasyStack Builder is a suite of deployment modules built directly into ORCE, our visual orchestration engine. At runtime, these modules are registered as custom nodes within ORCE’s internal registry and appear as drag-and-drop components inside the orchestration flow editor. When a user adds a module to a flow and deploys it, ORCE executes the module's backend logic asynchronously. Each module listens for input events, processes parameters passed through the flow, and returns structured output (like deployment results or error messages) back to ORCE using standard flow message conventions. This allows seamless integration with other logic, chaining, or decision-making steps in the pipeline.
+EasyStack Builder is a suite of deployment modules built directly into ORCE, our visual orchestration engine. At runtime, these modules are registered as custom nodes within ORCE’s internal registry and appear as drag-and-drop components inside the orchestration flow editor under `EasyStack Builder` category. When a user adds a module to a flow and deploys it, ORCE executes the module's backend logic asynchronously. Each module listens for input events, processes parameters passed through the flow, and returns structured output (like deployment results or error messages) back to ORCE using standard flow message conventions. This allows seamless integration with other logic, chaining, or decision-making steps in the pipeline.
 
 These modules are designed to automate the full deployment process of federated cloud services such as:
 - Federated Catalogue
