@@ -44,7 +44,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 - kubectl create ns fed-cat-demo
 - helm install fc-service . -n fed-cat-demo
 - kubectl create secret tls certificates ...
-- # Set up Keycloak: series of curl calls or web admin steps to create client, user, assign roles
+- \# Set up Keycloak: series of curl calls or web admin steps to create client, user, assign roles
 
 
 ### 🚀 After EasyStack Builder
