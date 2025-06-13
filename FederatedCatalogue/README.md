@@ -60,6 +60,7 @@ Upload `node-red-leanea-federated-catalogue-1.0.2.tgz` from this repository and 
 
 ### 2. Install your node
 click on the "Install" tab. Then on the upload icon.The node will be successfully installed.
+![step two (flow)](./docImage/stepnew.png?raw=true)
 
 ### 3. Create your flow
 Drag in an Inject node, the **Federated Catalogue** node, and a Debug node. Connect them:
