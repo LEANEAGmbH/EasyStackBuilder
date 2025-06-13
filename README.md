@@ -102,6 +102,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
    - Generates service clients and client secrets.  
    - Creates users and assigns roles automatically.  
    - Disables default password policies for integration ease.
+
 <img
   src="./docImages/keycloak.jpg?raw=true"
   alt="keycloak"
