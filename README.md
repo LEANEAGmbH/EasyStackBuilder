@@ -42,7 +42,7 @@ you can start sending API requests to it
 <img
   src="./docImages/moduledeploymentflow.jpg?raw=true"
   alt="executionProcess"
-  style="max-width:400px; width:100%; height:auto;"
+  style="max-width:400px; width:50%; height:auto;"
 />
 
 
