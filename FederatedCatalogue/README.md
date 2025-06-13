@@ -34,10 +34,13 @@ You'll need:
 1.2. A local ORCE as the parent to host the initial developing environment
 
 ### 1.1. Kubernetes
-Requires a working Kubernetes cluster with ingress installed:
+"Orchestration Engine" node requires a working Kubernetes cluster with ingress installed on it. Initiate a K8s cluster and install nginx-ingress on it using this command.
 ```bash
 export KUBECONFIG=`<YOUR KUBECONFIG PATH>`
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.3/deploy/static/provider/cloud/deploy.yaml
+```
+You can learn more by reading the [official documentation](https://kubernetes.github.io/ingress-nginx/deploy/)
+After this step, you can proceed to step 1.2 (Installing a local ORCE)
 ```
 
 ### 1.2. Local ORCE
