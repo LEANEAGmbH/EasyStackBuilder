@@ -62,6 +62,7 @@ All the complexity of Helm, Kubernetes, Keycloak, ingress, TLS, and namespace se
 
 2. **Frontend UI (in ORCE)**  
    Each module exposes a rich form-based UI with configuration tabs for Instance, Deployment, Domain, Credentials, and Information. Users upload kubeconfig and TLS certificates, specify instance names and domains, provide Keycloak admin credentials, and receive real-time validation.
+![confdialog](./docImages/confdialog.jpg?raw=true)
 
 3. **Backend Logic**  
    - Written in Node.js with a Node-RED-compatible handler.  
