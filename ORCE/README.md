@@ -63,6 +63,7 @@ After pulling and deploying the image, you can go to [http://localhost:1880](htt
 ![new button](./docImages/photo_2025-06-12_23-05-42.jpg?raw=true)
 
 Then, in the new window upload the node package (`node-red-leanea-orce-2.0.0.tgz` in this repository) and install it. Refresh the page and if everything is done correctly and without errors you can proceed to step2 (creating your flow).
+![upload node](./docImages/install_node.jpg?raw=true)
 ### 2. Create your flow
 Drag and drop inject, Orchestration Engine and a debug node. Connect them like below so Orchestration Engine can be triggered by the inject node.
 ![step one (flow)](./docImages/photo_2_2025-06-12_15-30-18.jpg?raw=true)
