@@ -114,4 +114,4 @@ EasyStack Builder turns ORCE into a low-code cloud deployment engine, bridging t
 ## License
 
 This project is licensed under the Apache License 2.0.  
-See the [LICENSE](../LICENSE) file for details.
+See the [LICENSE](./LICENSE) file for details.
