@@ -28,7 +28,7 @@ These modules are designed to automate the full deployment process of federated 
 <img
   src="./docImages/moduledeploymentflow.jpg?raw=true"
   alt="executionProcess"
-  style="max-width:400px; width:100%; height:auto;"
+  style="max-width:400px; width:40%; height:auto;"
 />
 
 
