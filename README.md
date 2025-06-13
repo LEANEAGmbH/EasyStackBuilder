@@ -12,6 +12,7 @@
 - 🗑️ Uninstallation Support
 - 🔮 What’s Next
 - 📝 Summary
+- LICENSE
 
 ## ❓ What is EasyStack Builder?
 
